@@ -15,6 +15,7 @@
   cursor: pointer;
   display: flex;
   justify-content: center;
+  transition: all 0.3s;
 
   &:hover {
     background-color: white;
@@ -25,9 +26,10 @@
   &.google-sign-in {
     background-color: #4285f4;
     color: white;
+    transition: all 0.3s;
 
     &:hover {
-      background-color: #357ae8;
+      background-color: #4c25b8;
       border: none;
     }
   }
