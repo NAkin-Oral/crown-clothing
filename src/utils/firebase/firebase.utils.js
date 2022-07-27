@@ -20,6 +20,8 @@ const firebaseConfig = {
 
 const firebaseApp = initializeApp(firebaseConfig);
 
+console.log(firebaseApp);
+
 const googleProvider = new GoogleAuthProvider();
 
 googleProvider.setCustomParameters({
